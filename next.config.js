@@ -3,9 +3,7 @@ const nextConfig = {
   output: 'export',
   trailingSlash: true,
   images: {
-    unoptimized: true,
-    loader: 'custom',
-    loaderFile: './imageLoader.js'
+    unoptimized: true
   },
   experimental: {
     optimizePackageImports: ['framer-motion']

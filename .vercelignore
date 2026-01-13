@@ -1,0 +1,12 @@
+# Build artifacts
+*.zip
+out/
+.next/
+node_modules/
+
+# Development files
+*.log
+.DS_Store
+
+# Source files that shouldn't be deployed
+smartroad-tech-tiiny.zip
