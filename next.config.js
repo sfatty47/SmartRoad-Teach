@@ -5,9 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  experimental: {
-    optimizePackageImports: ['framer-motion']
-  },
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production'
   },

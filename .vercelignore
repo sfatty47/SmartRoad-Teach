@@ -3,10 +3,21 @@
 out/
 .next/
 node_modules/
+dist/
 
 # Development files
 *.log
 .DS_Store
+*.swp
+*.swo
 
 # Source files that shouldn't be deployed
 smartroad-tech-tiiny.zip
+imageLoader.js
+compress-images.js
+setup.sh
+DEPLOYMENT.md
+
+# Git
+.git/
+.gitignore
