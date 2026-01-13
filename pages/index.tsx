@@ -18,7 +18,7 @@ export default function Home() {
   const features = [
     {
       icon: "🧠",
-      title: "AI-Powered Road Monitoring",
+      title: "Powered Road Monitoring",
       description: "Detects potholes, road damage, and hazards in real time using advanced computer vision and machine learning."
     },
     {
@@ -41,7 +41,7 @@ export default function Home() {
   const stats = [
     { number: "20%", label: "Fewer Accidents", description: "in pilot regions" },
     { number: "100+", label: "KM Monitored", description: "of smart roads" },
-    { number: "15", label: "Municipalities", description: "partnering with us" },
+    { number: "1", label: "Municipality", description: "partnering with us" },
     { number: "24/7", label: "Monitoring", description: "real-time surveillance" }
   ];
 
@@ -49,7 +49,7 @@ export default function Home() {
     <>
       <Head>
         <title>SmartRoad Tech - Building Safer, Smarter Roads for The Gambia</title>
-        <meta name="description" content="SmartRoad Tech uses AI and IoT to monitor road conditions, reduce accidents, and optimize traffic flow — making Gambian roads safer for everyone." />
+        <meta name="description" content="SmartRoad Tech uses IoT to monitor road conditions, reduce accidents, and optimize traffic flow — making Gambian roads safer for everyone." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.jpeg" />
       </Head>
@@ -166,7 +166,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-xl md:text-2xl text-gray-200 mb-8 max-w-4xl mx-auto leading-relaxed"
             >
-              SmartRoad Tech uses AI and IoT to monitor road conditions, reduce accidents, 
+              SmartRoad Tech uses IoT to monitor road conditions, reduce accidents, 
               and optimize traffic flow — making Gambian roads safer for everyone.
             </motion.p>
 
@@ -262,7 +262,7 @@ export default function Home() {
               Smart Solutions for Smart Roads
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our comprehensive suite of AI and IoT technologies work together to create 
+              Our comprehensive suite of IoT technologies work together to create 
               the safest and most efficient road network in West Africa.
             </p>
           </motion.div>
@@ -470,7 +470,7 @@ export default function Home() {
                 <span className="text-xl font-bold">SmartRoad Tech</span>
               </div>
               <p className="text-gray-400 mb-6 max-w-md">
-                Transforming road safety in The Gambia through AI, IoT, and data-driven insights. 
+                Transforming road safety in The Gambia through IoT and data-driven insights. 
                 Building the future of transportation, one smart road at a time.
               </p>
               <div className="flex space-x-4">
